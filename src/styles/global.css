@@ -1,0 +1,59 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: var(--title-color);
+}
+
+a {
+	color: var(--title-color-dark);
+	text-decoration: none;
+	cursor: pointer;
+}
+
+button {
+	cursor: pointer;
+	border: none;
+	outline: none;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	min-height: calc(100dvh - 70px);
+}
+/* Global Input number Ocultar flechas */
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+	appearance: none;
+	margin: 0;
+}
+/* SCROLL  */
+::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+	border-radius: 10px;
+	background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-color: #b1b1b1;
+	transition: all 0.3s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: #555;
+	opacity: 0.7;
+}
+/* Diseño para el input range */
+.thumb {
+	top: -7px;
+	width: 20px;
+	height: 20px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	background: #aaa;
+}

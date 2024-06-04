@@ -1,0 +1,9 @@
+:root[data-theme='dark'] {
+	--hue: 210;
+	--sat: 100%;
+	--title-color: hsl(var(--hue) var(--sat) 90%);
+	--title-color-dark: hsl(var(--hue) var(--sat) 98%);
+	--text-color: hsl(var(--hue) var(--sat) 70%);
+	--body-color: hsl(var(--hue) var(--sat) 10%);
+	--container-color: #333;
+}
