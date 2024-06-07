@@ -1,0 +1,16 @@
+.button {
+	display: inline-block;
+	padding: 16px 28px;
+	border-radius: 1rem;
+	background-color: var(--title-color);
+	color: var(--container-color);
+	font-size: var(--text-base);
+	font-weight: var(--font-medium);
+	text-align: center;
+	transition: all ease-in-out 0.6s;
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: var(--title-color-dark);
+}
