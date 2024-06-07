@@ -1,0 +1,18 @@
+.title {
+	color: var(--title-color);
+	font-size: var(--text-4xl);
+	font-weight: var(--font-bold);
+	text-align: center;
+}
+
+.subtitle {
+	margin-bottom: 48px;
+	font-size: var(--text-sm);
+	text-align: center;
+}
+
+@media screen and (width >= 768px) {
+	.subtitle {
+		margin-bottom: 64px;
+	}
+}
