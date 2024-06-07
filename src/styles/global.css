@@ -23,6 +23,15 @@ main {
 	display: flex;
 	flex-direction: column;
 	min-height: calc(100dvh - 70px);
+	background-color: var(--body-color);
+	color: var(--text-color);
+	font-size: var(--text-base);
+	font-weight: var(--font-regular);
+}
+
+input {
+	border: none;
+	outline: none;
 }
 /* Global Input number Ocultar flechas */
 input[type='number']::-webkit-inner-spin-button,
