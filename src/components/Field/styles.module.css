@@ -1,0 +1,9 @@
+.field {
+	& input {
+		width: 100%;
+		margin: 4px 0 32px;
+		padding: 12px 16px;
+		font-size: var(--normal-font-size);
+		font-weight: var(--font-medium);
+	}
+}
