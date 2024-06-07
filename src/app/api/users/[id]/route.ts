@@ -1,6 +1,6 @@
 import { RowDataPacket } from 'mysql2'
 import { NextResponse } from 'next/server'
-import { connection } from '../../connection'
+import { connection } from 'app/app/api/connection'
 
 interface IParams {
 	params: { id: string }

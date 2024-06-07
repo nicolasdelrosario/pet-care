@@ -1,6 +1,6 @@
 import { RowDataPacket } from 'mysql2'
 import { NextResponse } from 'next/server'
-import { connection } from './connection'
+import { connection } from 'app/app/api/connection'
 
 export async function GET() {
 	try {
@@ -14,7 +14,7 @@ export async function GET() {
 		}))
 
 		return NextResponse.json(users, { status: 200 })
-	} catch (err: any) {
-		return NextResponse.json({ error: err.message }, { status: 500 })
+	} catch (err: unknown) {
+		return NextResponse.json({ error: err }, { status: 500 })
 	}
 }
