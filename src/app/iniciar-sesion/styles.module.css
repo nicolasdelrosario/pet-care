@@ -1,0 +1,7 @@
+.main {
+	justify-content: center;
+
+	& p {
+		margin-bottom: 32px;
+	}
+}
