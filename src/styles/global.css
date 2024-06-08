@@ -22,7 +22,7 @@ button {
 main {
 	display: flex;
 	flex-direction: column;
-	min-height: calc(100dvh - 70px);
+	min-height: 100dvh;
 	background-color: var(--body-color);
 	color: var(--text-color);
 	font-size: var(--text-base);
